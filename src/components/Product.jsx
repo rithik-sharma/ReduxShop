@@ -21,7 +21,7 @@ const Product = ({ post }) => {
   return (
     <div className="flex flex-col items-center justify-between hover:scale-110 transition duration-300 ease-in shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] gap-3 p-4 mt-10 ml-5 rounded-xl group   hover:shadow-[0px_-50px_100px_80px_rgba(0,0,0,0.08)]">
       <div>
-        <p className="text-gray-700 font-semibold text-lg text-left truncate w-40 mt-1">
+        <p className="text-gray-900 font-semibold text-lg text-left truncate w-40 mt-1">
           {post.title}
         </p>
       </div>
@@ -37,7 +37,7 @@ const Product = ({ post }) => {
       <div className="flex justify-between gap-20 items-center w-full mt-5">
         <div>
           <p className="text-green-600 font-semibold text-[15px]">
-            ${post.price}
+            ₹{post.price}
           </p>
         </div>
 
