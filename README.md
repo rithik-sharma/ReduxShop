@@ -1,1 +1,1 @@
-# ECOMZY
+# ReduxShop
